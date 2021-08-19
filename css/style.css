@@ -1,14 +1,18 @@
 h1{
-    color: red;
+    color: black;
+}
+header{
+	background:dimgray;
+	height: 100px;
+	width: 100%;
+	text-align: center;
 }
 body{
     text-align: center;
+    background:darkorange;
 }
 p{
-    background: gray;
+    
     font-family: Arial, Helvetica, sans-serif;
-    color: black;  
-}
-.segundo-parrafo{
-    color: white;
+    color: whitesmoke;  
 }
