@@ -9,10 +9,141 @@
     </head>
     <body>
         <header>
-            <img src="logoPrinc.png" alt="logo" title="logo" height="100"/>
+            <img src="./assets/logoPrinc.png" alt="logo" title="logo" class="logo"/> 
+            <h1 class="titulo">TALLER DE PROGRAMACION</h1>  
+            <nav class="indice">
+                <ul>
+                    <li><a>Inicio</a></li>
+                    <li><a href="https://taller-de-progra.foroactivo.com/">Foro</a></li>
+                    <li><a>Contenido</a></li>
+                </ul>  
+            </nav>
         </header>
-        <h1>PAGINA EN PROCESO</h1>
-        <p>Estamos trabajando</p>
-        <p class="segundo-parrafo">por una pagina mejor</p>
+        <div class="espacioheader"></div>
+        <section id="content">
+            <h1>Comandos para Git</h1>
+            <h2>Antes del primer commit</h2>
+            <p><b>git config -l .-</b> Muestra una lista de las configuraciones de git, como el nombre de usuario o email<br>
+                <b>git config --global user.name "John Doe" .-</b> Configura el nombre de usuario a John Doe<br>
+                <b>git config --global user.email abc@ejemplo.com .-</b> Configura el email del usuario a abc@ejemplo.com (importante para github)<br>
+            </p>
+            <h2>Crear commit</h2>
+            <p><b>git status .-</b> Indica tu posicion actual, commits, archivos trackeados y cambios realizados<br>
+                <b>git add . .-</b> Lleva los archivos a staging area para hacerles seguimiento o trackearlos<br>
+                <b>git rm . .-</b> Quita el seguimiento a los archivos<br>
+                <b>git commit -m "Mensaje" .-</b> Crea un commit con un mensaje de descripcion<br>
+            </p>
+            <h2>Analizar los cambios</h2>
+            <p><b>git show archivo.txt .-</b> Compara "archivo.txt" con sus versiones anteriores<br>
+                <b>git log archivo.txt .-</b> Muestra los commits en los que esta uncluido "archivo.txt"<br>
+                <b>git diff .-</b> Muestra las diferencias entre el commit actual y los anteriores<br>
+            </p>
+            <h2>Crear y pasar entre ramas</h2>
+            <p><b>git branch .-</b> Muestra todas las ramas, y marca en que rama estas con un *<br>
+                <b>git branch ejemplo .-</b> Crea una nueva rama llamada ejemplo<br>
+                <b>git checkout ejemplo .-</b> Pasa a la rama ejemplo<br>
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sunt esse nostrum nesciunt porro et perferendis dolores, 
+                reprehenderit placeat tempora eaque nisi, alias eos quod 
+                repudiandae ea vitae corrupti deserunt? Quod.<br>
+            </p>
+        </section>
+        <footer>
+            <h3>Cristian Fabricio Fernandez Perez - Taller de Programacion</h3>
+        </footer>
     </body>
 </html>
